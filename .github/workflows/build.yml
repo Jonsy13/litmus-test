@@ -64,7 +64,7 @@ jobs:
           make backend-services-checks
 
   frontend-checks:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     needs: changes
     if: ${{ needs.changes.outputs.frontend == 'true' }}
     steps:
