@@ -35,7 +35,7 @@ frontend-services-checks:
 	@echo "------------------"
 	@echo "--> checking code style [frontend]"
 	@echo "------------------"
-	cd frontend && npm i eslint@6.8.0 --no-save && npm run lint
+	cd frontend && npm i && npm run lint
 # @echo "------------------"
 # @echo "--> Check litmusportal frontend [depcheck]"
 # @echo "------------------"
