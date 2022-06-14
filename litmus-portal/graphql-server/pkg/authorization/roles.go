@@ -4,7 +4,7 @@ import (
 	"github.com/litmuschaos/litmus/litmus-portal/graphql-server/graph/model"
 )
 
-// RoleQuery states the query for the roles
+// RoleQuery states the query for the rol
 type RoleQuery string
 
 const (
